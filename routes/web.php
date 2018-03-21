@@ -19,5 +19,6 @@
 //    return "this is about";
 //});
 
+//Route::get('/', 'Index@index');
 
-Route::get('/', 'Index@index');
+Route::get('/', 'Frontend@index');
